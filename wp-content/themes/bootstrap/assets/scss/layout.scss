@@ -1,0 +1,99 @@
+/* Layout */
+html{
+	height: 100%;
+}
+
+.mt150{
+	margin-top: 150px;
+}
+
+.page-content{
+	margin: 0;
+	overflow: hidden;
+	padding: 20px;
+	position: relative;
+}
+
+.bg-w{
+	background-color: $color_w;
+}
+
+.container-stellar{
+		
+		background-repeat: no-repeat;
+		background-position: 100% 0;
+		background-color: $color_w;
+		width: 100%;
+		position: relative;
+}
+.sample-page-content{
+	background-color: $color_w;
+}
+
+#nedtelling-stellar{
+
+}
+
+.nedtelling-content{
+	background-image: url('img/bg_iba.jpg');
+	height: 400px;
+}
+
+
+#instagram-stellar{
+	background-image: url('img/bg-siri-iba.jpg');
+	height: 400px;
+}
+.instagram-content{
+	background-color: $color_iv;
+}
+
+#rvsp-stellar {
+	background-image: url('img/mb_gla_bg.jpg');
+	height: 200px;
+}
+.rvsp-content{
+	background-color: $color_ow;
+}
+
+// NAV
+
+.nav{
+	margin: 0 auto;
+	width: 1110px;
+	text-align: center;
+	
+	> li{
+		display: inline-block;
+	}
+}
+
+
+.navbar{
+	margin: 70px 0 20px;
+		border-radius: 0;
+		padding-top: 150px;
+background: $color_ow;
+	
+	
+
+}
+
+.sticky {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 100;
+	border-top: 0;
+	margin-top: 0px;
+	height: 50px;
+	padding: 0;
+	border-radius: 0;
+	padding-top: 5px;
+
+}
+
+
+/*navbar*/
+

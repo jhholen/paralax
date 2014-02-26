@@ -1,0 +1,22 @@
+/* Map settings */
+/* version 2.18 */
+.gm-style-iw {
+    overflow-y: hidden !important;
+    overflow-x: hidden !important;
+    color: #000 !important;
+    white-space: nowrap !important;
+}
+.gm-style a:link, 
+.gm-style a:visited, 
+.gm-style a:hover, 
+.gm-style a:active {
+    text-decoration: underline !important;
+    color: #000 !important;
+}
+.gm-style img {
+    border: 0;
+    max-width: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}

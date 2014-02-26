@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/*
+Theme Name: S&JH - bryllup
+Theme URI: http://www.sempro.no
+Description: Utviklingstema laget med Twitter Bootstrap 3.
+Author: Jarl-Håvard Holen
+Author URI: http://www.jhholen.com
+Version: 1.0
+Tags: responsive, white, bootstrap
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+*/
+/* Layout */
+.page-content {
+  background-color: white;
+  margin: 0;
+  overflow: hidden;
+  padding: 20px;
+  position: relative; }
+
+.container-stellar {
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  background-color: white;
+  width: 100%;
+  position: relative; }
+
+#nedtelling-stellar {
+  background-image: url("img/mb_gla_bg.jpg");
+  height: 400px; }
+
+#instagram-stellar {
+  background-image: url("img/mb_gla_bg.jpg");
+  height: 400px; }
+
+#rvsp-stellar {
+  background-image: url("img/mb_gla_bg.jpg");
+  height: 200px; }
+
+.nav {
+  margin: 10px 0; }
+
+.sticky {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0; }
+
+/* Media */
+#instagram {
+  position: relative; }
+  #instagram #slideshow {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto; }
+    #instagram #slideshow span.image-wrapper, #instagram #slideshow .caption {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0; }
+    #instagram #slideshow img {
+      width: 600px;
+      height: 600px; }
+  #instagram li {
+    list-style: none; }
+  #instagram .thumb {
+    float: left;
+    padding: 5px;
+    list-style: none; }
+    #instagram .thumb img {
+      width: 200px; }
+
+.scene {
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  min-height: 460px;
+  position: relative;
+  overflow: hidden; }
+
+.container-bg {
+  min-height: 460px;
+  position: fixed;
+  overflow: hidden;
+  display: table;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0; }
+
+.background {
+  background: url("img/mb_gla_bg.jpg") no-repeat 50% 100%;
+  bottom: 96px;
+  background-size: cover;
+  position: absolute;
+  width: 110%;
+  left: -5%;
+  top: -5%; }
+
+.footer_img img {
+  position: absolute;
+  bottom: -150px;
+  min-width: 110%;
+  height: 300px;
+  left: -5%; }
+
+.mobile body {
+  overflow: hidden;
+  display: block; }
+
+.mobile #wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%; }
+
+.mobile #scroller {
+  height: 3500px; }

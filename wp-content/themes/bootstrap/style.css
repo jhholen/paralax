@@ -1,0 +1,176 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script);
+/*
+Theme Name: S&JH - bryllup
+Theme URI: http://www.sempro.no
+Description: Utviklingstema laget med Twitter Bootstrap 3.
+Author: Jarl-Håvard Holen
+Author URI: http://www.jhholen.com
+Version: 1.0
+Tags: responsive, white, bootstrap
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+*/
+/* Layout */
+html {
+  height: 100%; }
+
+.mt150 {
+  margin-top: 150px; }
+
+.page-content {
+  margin: 0;
+  overflow: hidden;
+  padding: 20px;
+  position: relative; }
+
+.bg-w {
+  background-color: white; }
+
+.container-stellar {
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  background-color: white;
+  width: 100%;
+  position: relative; }
+
+.sample-page-content {
+  background-color: white; }
+
+.nedtelling-content {
+  background-image: url("img/bg_iba.jpg");
+  height: 400px; }
+
+#instagram-stellar {
+  background-image: url("img/bg-siri-iba.jpg");
+  height: 400px; }
+
+.instagram-content {
+  background-color: #fff5f0; }
+
+#rvsp-stellar {
+  background-image: url("img/mb_gla_bg.jpg");
+  height: 200px; }
+
+.rvsp-content {
+  background-color: #fdfdfd; }
+
+.nav {
+  margin: 0 auto;
+  width: 1110px;
+  text-align: center; }
+  .nav > li {
+    display: inline-block; }
+
+.navbar {
+  margin: 70px 0 20px;
+  border-radius: 0;
+  padding-top: 150px;
+  background: #fdfdfd; }
+
+.sticky {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+  margin-top: 0px;
+  height: 50px;
+  padding: 0;
+  border-radius: 0;
+  padding-top: 5px; }
+
+/*navbar*/
+/* Media */
+h1, h2, h3, h4 {
+  font-family: "Dancing Script", cursive; }
+
+.logo {
+  font-size: 4em;
+  color: #fdfdfd;
+  text-align: center; }
+
+.page-content > h2 {
+  font-size: 3.5em;
+  text-align: center; }
+
+.nedtelling-content h2 {
+  color: white; }
+
+#instagram {
+  position: relative; }
+  #instagram #slideshow {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto; }
+    #instagram #slideshow span.image-wrapper, #instagram #slideshow .caption {
+      display: block;
+      position: absolute;
+      top: 0; }
+    #instagram #slideshow img {
+      width: 600px;
+      height: 600px; }
+  #instagram li {
+    list-style: none; }
+  #instagram .thumb {
+    float: left;
+    padding: 5px;
+    list-style: none; }
+    #instagram .thumb img {
+      width: 200px; }
+
+.scene {
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  min-height: 460px;
+  position: relative;
+  overflow: hidden; }
+
+.container-bg {
+  min-height: 460px;
+  position: fixed;
+  overflow: hidden;
+  display: table;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0; }
+
+.background {
+  background: url("img/bg.jpg") no-repeat 50% 100%;
+  bottom: -5%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  width: 110%;
+  left: -5%;
+  top: -5%; }
+
+.footer_img img {
+  position: absolute;
+  bottom: -150px;
+  min-width: 110%;
+  height: 300px;
+  left: -5%; }
+
+.mobile body {
+  overflow: hidden;
+  display: block; }
+
+.mobile #wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%; }
+
+.mobile #scroller {
+  height: 3500px; }
