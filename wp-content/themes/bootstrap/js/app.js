@@ -7,6 +7,7 @@ var App = {
 
 jQuery(document).ready(function(){
 	var gif = jQuery('.loader');
+
 	
 	
 
@@ -77,7 +78,7 @@ jQuery(document).ready(function(){
 			
 		    App.fetchingData = false;
 			App.nextURL = response.next_url;
-				gif.hide();
+			gif.hide();
 
 				
 
