@@ -41,7 +41,7 @@ jQuery(document).ready(function($){
             jQuery.countdown.setDefaults(jQuery.countdown.regional["uji"]);
             jQuery("#ujiCountdown").countdown({until: austDay, serverSync: serverTime, text_size: ''+ ujic_txt_size +'', color_down: ''+ ujic_col_dw +'', color_up: ''+ ujic_col_up +'', color_txt:  ''+ ujic_col_txt +'', color_sw:  ''+ ujic_col_sw +'',  ujic_txt: ujic_txt, animate_sec: ujic_ani, ujic_url: ''+ ujic_url +'' });
 			if(uji_center && uji_center!='')	
-           		 jQuery("#ujiCountdown").css({"width": (jQuery("#ujiCountdown").width()+5)+"px", "padding-left": "10px", "display": "block"});
+           		 jQuery("#ujiCountdown").css({"width": (jQuery("#ujiCountdown").width()+15)+"px", "padding-left": "10px", "display": "block"});
 			});
  
 // Get Server Time

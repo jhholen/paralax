@@ -26,8 +26,12 @@ html{
 		width: 100%;
 		position: relative;
 }
-.sample-page-content{
+.artikkel-content{
 	background-color: $color_w;
+}
+
+.adresser-for-dagen-content{
+background-color: $color_iv;
 }
 
 #nedtelling-stellar{
@@ -41,16 +45,14 @@ html{
 
 
 #instagram-stellar{
-	background-image: url('img/bg-siri-iba.jpg');
-	height: 400px;
 }
 .instagram-content{
 	background-color: $color_iv;
 }
 
-#rvsp-stellar {
-	background-image: url('img/mb_gla_bg.jpg');
-	height: 200px;
+#rvsp-content {
+	background-image: url('img/bg-siri-iba.jpg');
+	height: 600px;
 }
 .rvsp-content{
 	background-color: $color_ow;

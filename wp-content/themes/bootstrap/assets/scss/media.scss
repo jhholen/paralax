@@ -12,18 +12,26 @@ h1, h2, h3, h4{
 	font-size: 4em;
 	color: $color_ow;
 	text-align: center;
+	text-shadow: 1px 1px 3px #000000;
 }
 .page-content{
 	> h2{
 
 		font-size: 3.5em;
 		text-align: center;
+
 	}
 }
 
 .nedtelling-content{
+
+
+
 	h2{
 		color: $color_w;
+			text-shadow: 1px 1px 3px #000000;
+
+
 	}
 }
 

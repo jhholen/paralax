@@ -14,8 +14,9 @@
 .countdown_section {
 	display: block;
 	float: left;
-	margin: 0 10px 0 0;
+	margin: 0 0px 0 0;
 	text-align: center;
+	padding: 10px;
 }
 .countdown_amount {
 	display: inline-block!important;
@@ -35,7 +36,7 @@
 }
 .countdown_amount {
 	color: #fff !important;
-	padding: 35px 15px 5px 15px;
+	padding: 35px 5px 5px 5px;
 	margin-right: 2px;
 
 	font-family: 'Dancing Script', cursive !important;
@@ -71,7 +72,7 @@
 	overflow: hidden;
 	display: block;
     float: left;
-    margin: 0 10px 0 0;
+    margin: 0 0 0 0;
     text-align: center;
 }
 #uji_sec .countdown_section{

@@ -46,12 +46,16 @@ html {
   background-image: url("img/bg_iba.jpg");
   height: 400px; }
 
+#instagram-stellar {
+  background-image: url("img/bg-siri-iba.jpg");
+  height: 400px; }
+
 .instagram-content {
   background-color: #fff5f0; }
 
-#rvsp-content {
-  background-image: url("img/bg-siri-iba.jpg");
-  height: 600px; }
+#rvsp-stellar {
+  background-image: url("img/mb_gla_bg.jpg");
+  height: 200px; }
 
 .rvsp-content {
   background-color: #fdfdfd; }
